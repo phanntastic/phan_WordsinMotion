@@ -11,6 +11,9 @@ html{
    font-style: normal;
    color:#3b3b3b;
 }
+nav {
+   text-decoration: none;
+}
 .lyrics{
    font-size: 15px; 
 }
@@ -36,5 +39,39 @@ html{
 }
 
 h2{
-   font-size: 30px;
+   font-size: 35px;
+   animation: moveUp 4s forwards;
+   display: inline-block;
+   
 }
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-340px);
+  }
+}
+h2 a{
+   text-decoration: none;
+   color: #3b3b3b;
+}
+.glow {
+   font-size: 40px;
+   color:khaki;
+   text-align: center;
+   animation: glow 2s infinite;
+   position: relative;
+ }
+ 
+ @keyframes glow{
+   0%, 100% {
+     text-shadow: 0 0 20px #faf746b3;
+     transform: scale(1);
+   }
+   50% {
+     text-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 0 50px rgba(255, 255, 255, 1);
+     transform: scale(1.05);
+   }
+ }
