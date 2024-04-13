@@ -14,6 +14,7 @@ html{
 nav {
    text-decoration: none;
 }
+
 .lyrics{
    font-size: 15px; 
 }
@@ -38,13 +39,22 @@ nav {
    font-weight: 300;
 }
 
-h2{
+.slideUp{
    font-size: 35px;
    animation: moveUp 4s forwards;
    display: inline-block;
+
+}
+
+h2{
+   font-size: 35px;
+   
    
 }
 
+h2:hover{
+   
+}
 @keyframes moveUp {
   from {
     transform: translateY(0);
@@ -56,6 +66,13 @@ h2{
 h2 a{
    text-decoration: none;
    color: #3b3b3b;
+   transform: scale(3,1.5);
+   -webkit-transform: scale(3,1.5);
+   -moz-transform: scale(3,1.5);
+   -ms-transform: scale(3,1.5);
+   -o-transform: scale(3,1.5);
+
+
 }
 .glow {
    font-size: 40px;
