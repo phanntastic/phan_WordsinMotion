@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 350px;
+    flex-direction: column;
+    columns: row;
+    
+ }
+
+ h1{
+    display: flex;
+    }
