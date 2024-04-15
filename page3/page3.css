@@ -13,3 +13,29 @@
  h1{
     display: flex;
     }
+    .slideUp{
+        font-size: 35px;
+        animation: moveUp 4s forwards;
+        display: inline-block;
+     
+     }
+     
+     h2{
+        font-size: 35px;
+        
+        
+     }
+     h2 a{
+        text-decoration: none;
+        color: #3b3b3b;
+     }
+     
+    
+     @keyframes moveUp {
+       from {
+         transform: translateY(0);
+       }
+       to {
+         transform: translateY(-340px);
+       }
+     }

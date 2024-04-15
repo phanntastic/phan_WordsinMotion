@@ -93,3 +93,21 @@ h2 a{
      transform: scale(1.05);
    }
  }
+
+ #fadeIn {
+   animation-name: fadeIn;
+   animation-delay: 0s;
+   animation-direction: forwards;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+}
+@keyframes fadeIn {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
