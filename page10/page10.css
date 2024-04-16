@@ -1,12 +1,12 @@
 .container {
     display: flex;
-    /* justify-content: ; */
+    justify-content: space-around;
     padding-left: 20px;
     font-size: 30px;
     font-weight: 300;
-    margin: 35px;
-    flex-direction: row;
-    /* columns: auto; */
+    margin: 350px;
+    flex-direction: column;
+    columns: row;
     
  }
  *{
@@ -15,6 +15,10 @@
   
   }
   
+  a{
+    text-decoration: none;
+        color: #3b3b3b;
+  }
   html{
      font-family: "Reenie Beanie", cursive;
      font-weight: 400;

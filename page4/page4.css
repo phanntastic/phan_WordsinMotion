@@ -3,7 +3,10 @@
     padding: 0;
   
   }
-  
+  a{
+    text-decoration: none;
+        color: #3b3b3b;
+  }
   html{
      font-family: "Reenie Beanie", cursive;
      font-weight: 400;
@@ -41,11 +44,11 @@
     font-size: 35px;
     animation: moveUp 4s forwards;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 30px;
  
  }
   .container {
-    /* display: flex; */
+    display: flex;
     /* justify-content: center; */
     /* padding-left: 20px; */
     font-size: 30px;
