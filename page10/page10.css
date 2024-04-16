@@ -1,12 +1,12 @@
 .container {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: ; */
     padding-left: 20px;
     font-size: 30px;
     font-weight: 300;
-    margin: 350px;
-    flex-direction: column;
-    columns: row;
+    margin: 35px;
+    flex-direction: row;
+    /* columns: auto; */
     
  }
  *{

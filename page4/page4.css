@@ -15,24 +15,43 @@
   }
   h1{
     display: flex;
+    font-size: 30px;
     }
     
     h2 a{
         text-decoration: none;
         color: #3b3b3b;
      }
+  h2 {
+    
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
   
   .lyrics{
      font-size: 15px; 
   }
-
+  
+  .slideUp{
+    font-size: 35px;
+    animation: moveUp 4s forwards;
+    display: inline-block;
+    margin-right: 50px;
+ 
+ }
   .container {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding-left: 20px; */
     font-size: 30px;
     font-weight: 300;
-    margin: 350px;
+    margin: 100px;
+    padding-top: 30px;
     
  }
 
