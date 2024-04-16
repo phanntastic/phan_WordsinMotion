@@ -10,7 +10,7 @@
      font-style: normal;
      color:#3b3b3b;
   }
-  nav {
+  nav a {
      text-decoration: none;
   }
   h1{
@@ -54,9 +54,9 @@
 
 #fadeIn {
     animation-name: fadeIn;
-    animation-delay: 0s;
+    animation-delay: 2s;
     animation-direction: forwards;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease;
@@ -70,6 +70,6 @@
     }
   }
   .transform{
-    animation: rotate;
-    
+    animation-name: rotate circle;
+
   }
